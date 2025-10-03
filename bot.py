@@ -13,9 +13,9 @@ from collections import defaultdict
 import pytz
 from math import floor
 
-# ---------------- CONFIG ----------------
+# ---------------- CONFIG --------------
 
-TOKEN = "MTQwNDQxMDUwMDIyOTQ5Njg4Mg.GKcPus.Epg7rz7zMpRXQyHLJHmCpCBfO7Aud419vE5eJE"  # <-- REPLACE with your token string 
+TOKEN = "MTQwNDQxMDUwMDIyOTQ5Njg4Mg.GBjs-B._nFV5-juhp3snagw78NASORA09JWHmfJyIrZKQ"  # <-- REPLACE with your token string 
 CHANNEL_ID = 1403752939709010051             # <--- poll channel id (int, NO quotes)
 LEADERBOARD_CHANNEL_ID = 1403754754085093466 # <--- leaderboard channel id (int, NO quotes)
 
@@ -1951,3 +1951,4 @@ if __name__ == "__main__":
         save_json(XP_TOTALS_FILE, {})
 
     bot.run(TOKEN)
+
